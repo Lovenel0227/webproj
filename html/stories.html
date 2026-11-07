@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f3ef">
+    <title>Stories — Form & Field</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+    <a class="wordmark" href="index.html">form<span>&</span>field</a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-icon"></span>
+        <span class="sr-only">Open menu</span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav">
+        <a href="shop.html">Shop</a>
+        <a href="lifestyle.html">Lifestyle</a>
+        <a href="about.html">About</a>
+        <a href="journal.html">Journal</a>
+        <a href="stories.html" aria-current="page">Stories</a>
+    </nav>
+
+    <button class="bag-button" type="button" aria-label="Shopping bag, 0 items">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 8h14l1 12H4L5 8Z"/>
+            <path d="M9 9V6a3 3 0 0 1 6 0v3"/>
+        </svg>
+        <span class="bag-count">0</span>
+    </button>
+</header>
+
+<main id="main">
+
+    <section class="hero">
+        <img class="hero-image" src="../image/hero-interior.jpg" alt="Beautiful and peaceful home interior">
+        <div class="hero-shade"></div>
+
+        <div class="hero-copy">
+            <p class="eyebrow">The stories we share</p>
+            <h1>Living well,<br>together.</h1>
+            <p class="hero-description">
+                Every home has a story.
+                Here are some moments worth sharing.
+            </p>
+        </div>
+    </section>
+
+    <section class="values-section section-wrap" id="stories">
+
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">Customer experiences</p>
+                <h2>Stories from everyday life.</h2>
+            </div>
+        </div>
+
+        <div class="feature-row">
+
+            <article class="value-card value-card-image" data-reveal>
+                <img src="../image/dining-room.jpg" alt="Cozy dining room">
+            </article>
+
+            <article class="value-card value-card-copy" data-reveal>
+                <span class="section-number">01</span>
+                <h2>A home filled with warmth</h2>
+                <p>
+                    "I love how simple and timeless
+                    these pieces are. They make my
+                    space feel more comfortable
+                    and welcoming."
+                </p>
+                <p>— A Form & Field customer</p>
+            </article>
+
+        </div>
+
+        <div class="feature-row feature-row-reverse">
+
+            <article class="value-card value-card-copy" data-reveal>
+                <span class="section-number">02</span>
+                <h2>Finding beauty in simplicity</h2>
+                <p>
+                    "The natural textures and
+                    thoughtful details make even
+                    the smallest corners of my
+                    home feel special."
+                </p>
+                <p>— A Form & Field customer</p>
+            </article>
+
+            <article class="value-card value-card-image" data-reveal>
+                <img src="../image/ceramic-vase.jpg" alt="Natural ceramic decoration">
+            </article>
+
+        </div>
+
+        <div class="feature-row">
+
+            <article class="value-card value-card-image" data-reveal>
+                <img src="../image/canvas-tote.jpg" alt="Reusable canvas tote">
+            </article>
+
+            <article class="value-card value-card-copy" data-reveal>
+                <span class="section-number">03</span>
+                <h2>Thoughtful everyday choices</h2>
+                <p>
+                    "I appreciate products that
+                    are simple, useful and beautiful.
+                    These essentials fit naturally
+                    into my daily routine."
+                </p>
+                <p>— A Form & Field customer</p>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="closing-banner">
+        <img src="../image/hero-interior.jpg" alt="Warm minimalist living room">
+        <div class="closing-copy">
+            <p class="eyebrow">Your story matters</p>
+            <h2>Make every<br>moment meaningful.</h2>
+            <p>Discover essentials made for everyday living.</p>
+            <a class="button button-dark" href="shop.html">
+                Explore collection <span>↗</span>
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer" id="footer">
+    <a class="footer-wordmark" href="index.html">form&field</a>
+
+    <nav class="footer-links">
+        <a href="about.html">About</a>
+        <a href="shop.html">Shop</a>
+        <a href="lifestyle.html">Lifestyle</a>
+        <a href="journal.html">Journal</a>
+    </nav>
+
+    <p class="footer-note">Made for living well.</p>
+
+    <div class="footer-legal">
+        <a href="#footer">Privacy</a>
+        <a href="#footer">Terms</a>
+        <span>© <span id="year"></span> Form & Field</span>
+    </div>
+</footer>
+
+<div class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
+

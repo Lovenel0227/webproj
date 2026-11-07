@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f3ef">
+    <title>Journal — Form & Field</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+    <a class="wordmark" href="index.html">form<span>&</span>field</a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-icon"></span>
+        <span class="sr-only">Open menu</span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav">
+        <a href="shop.html">Shop</a>
+        <a href="lifestyle.html">Lifestyle</a>
+        <a href="about.html">About</a>
+        <a href="journal.html" aria-current="page">Journal</a>
+        <a href="stories.html">Stories</a>
+    </nav>
+
+    <button class="bag-button" type="button" aria-label="Shopping bag, 0 items">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 8h14l1 12H4L5 8Z"/>
+            <path d="M9 9V6a3 3 0 0 1 6 0v3"/>
+        </svg>
+        <span class="bag-count">0</span>
+    </button>
+</header>
+
+<main id="main">
+
+    <section class="hero">
+        <img class="hero-image" src="../image/dining-room.jpg" alt="Warm dining room">
+        <div class="hero-shade"></div>
+
+        <div class="hero-copy">
+            <p class="eyebrow">The Form & Field journal</p>
+            <h1>Notes on<br>thoughtful living.</h1>
+            <p class="hero-description">
+                Ideas, inspiration and simple ways
+                to make everyday living more meaningful.
+            </p>
+        </div>
+    </section>
+
+    <section class="collection-section section-wrap">
+
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">Stories and inspiration</p>
+                <h2>From our journal.</h2>
+            </div>
+        </div>
+
+        <div class="product-grid">
+
+            <article class="product-card" data-reveal>
+                <div class="product-image">
+                    <img src="../image/hero-interior.jpg" alt="Minimalist home interior">
+                </div>
+                <p class="eyebrow">Lifestyle</p>
+                <p class="product-name">The beauty of simple living</p>
+                <p class="product-price">
+                    Discover how small changes can create a calmer home.
+                </p>
+            </article>
+
+            <article class="product-card" data-reveal>
+                <div class="product-image">
+                    <img src="../image/ceramic-vase.jpg" alt="Handmade ceramic vase">
+                </div>
+                <p class="eyebrow">Design</p>
+                <p class="product-name">Finding beauty in natural materials</p>
+                <p class="product-price">
+                    Appreciate the textures and details of everyday objects.
+                </p>
+            </article>
+
+            <article class="product-card" data-reveal>
+                <div class="product-image">
+                    <img src="../image/dining-room.jpg" alt="Simple dining room">
+                </div>
+                <p class="eyebrow">Home</p>
+                <p class="product-name">Creating a space that feels like home</p>
+                <p class="product-price">
+                    Make your space comfortable, personal and welcoming.
+                </p>
+            </article>
+
+            <article class="product-card" data-reveal>
+                <div class="product-image">
+                    <img src="../image/canvas-tote.jpg" alt="Reusable canvas bag">
+                </div>
+                <p class="eyebrow">Sustainability</p>
+                <p class="product-name">Small steps toward mindful choices</p>
+                <p class="product-price">
+                    Explore simple ways to make more thoughtful decisions.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="closing-banner">
+        <img src="../image/hero-interior.jpg" alt="Natural home interior">
+        <div class="closing-copy">
+            <p class="eyebrow">A thoughtful reminder</p>
+            <h2>Find beauty<br>in the everyday.</h2>
+            <p>Sometimes, the simplest moments mean the most.</p>
+            <a class="button button-dark" href="lifestyle.html">
+                Explore lifestyle <span>↗</span>
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer" id="footer">
+    <a class="footer-wordmark" href="index.html">form&field</a>
+    <nav class="footer-links">
+        <a href="about.html">About</a>
+        <a href="shop.html">Shop</a>
+        <a href="lifestyle.html">Lifestyle</a>
+        <a href="stories.html">Stories</a>
+    </nav>
+    <p class="footer-note">Made for living well.</p>
+    <div class="footer-legal">
+        <a href="#footer">Privacy</a>
+        <a href="#footer">Terms</a>
+        <span>© <span id="year"></span> Form & Field</span>
+    </div>
+</footer>
+
+<div class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>

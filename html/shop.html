@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f3ef">
+    <meta name="description" content="Explore thoughtfully made home essentials.">
+    <title>Shop — Form & Field</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+    <a class="wordmark" href="index.html">form<span>&</span>field</a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-icon"></span>
+        <span class="sr-only">Open menu</span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav">
+        <a href="shop.html" aria-current="page">Shop</a>
+        <a href="lifestyle.html">Lifestyle</a>
+        <a href="about.html">About</a>
+        <a href="journal.html">Journal</a>
+        <a href="stories.html">Stories</a>
+    </nav>
+
+    <button class="bag-button" type="button" aria-label="Shopping bag, 0 items">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 8h14l1 12H4L5 8Z"/>
+            <path d="M9 9V6a3 3 0 0 1 6 0v3"/>
+        </svg>
+        <span class="bag-count">0</span>
+    </button>
+</header>
+
+<main id="main">
+
+    <section class="closing-banner">
+        <img src="../image/hero-interior.jpg" alt="Minimalist home interior">
+        <div class="closing-copy">
+            <p class="eyebrow">The considered collection</p>
+            <h2>Everyday,<br>made special.</h2>
+            <p>Discover thoughtfully made pieces<br>for your home and everyday life.</p>
+        </div>
+    </section>
+
+    <section class="collection-section section-wrap" id="collection">
+
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">Our collection</p>
+                <h2>Thoughtful essentials.</h2>
+            </div>
+        </div>
+
+        <div class="product-grid">
+
+            <article class="product-card" data-reveal>
+                <div class="product-image">
+                    <img src="../image/pampas-vase.jpg" alt="Pampas vase">
+                    <button class="add-button" type="button" data-product="Pampas Vase">+</button>
+                </div>
+                <p class="product-name">Pampas Vase</p>
+                <p class="product-price">$48</p>
+            </article>
+
+            <article class="product-card" data-reveal>
+                <div class="product-image">
+                    <img src="../image/living-room-detail.jpg" alt="Linen throw">
+                    <button class="add-button" type="button" data-product="Linen Throw">+</button>
+                </div>
+                <p class="product-name">Linen Throw</p>
+                <p class="product-price">$36</p>
+            </article>
+
+            <article class="product-card" data-reveal>
+                <div class="product-image">
+                    <img src="../image/ceramic-cup.jpg" alt="Ceramic cup set">
+                    <button class="add-button" type="button" data-product="Ceramic Cup Set">+</button>
+                </div>
+                <p class="product-name">Ceramic Cup Set</p>
+                <p class="product-price">$28</p>
+            </article>
+
+            <article class="product-card" data-reveal>
+                <div class="product-image">
+                    <img src="../image/canvas-tote.jpg" alt="Canvas tote">
+                    <button class="add-button" type="button" data-product="Canvas Tote">+</button>
+                </div>
+                <p class="product-name">Canvas Tote</p>
+                <p class="product-price">$42</p>
+            </article>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer" id="footer">
+    <a class="footer-wordmark" href="index.html">form&field</a>
+
+    <nav class="footer-links">
+        <a href="about.html">About</a>
+        <a href="lifestyle.html">Lifestyle</a>
+        <a href="journal.html">Journal</a>
+        <a href="stories.html">Stories</a>
+    </nav>
+
+    <p class="footer-note">Made for living well.</p>
+
+    <div class="footer-legal">
+        <a href="#footer">Privacy</a>
+        <a href="#footer">Terms</a>
+        <span>© <span id="year"></span> Form & Field</span>
+    </div>
+</footer>
+
+<div class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
